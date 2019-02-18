@@ -1,17 +1,18 @@
 body {
+  background-image: url("../images/background.jpeg");
   margin: 0;
-  background: #222;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
 }
 
 .container {
 	width: 80%;
+  height: 100%;
 	margin: 0 auto;
 }
 
 header {
-  background: #55d6aa;
+  background: white;
 }
 
 header::after {
@@ -37,10 +38,15 @@ nav ul {
   list-style: none;
 }
 
+.homeButton {
+  position: left;
+  margin-right: 130px;
+}
+
 nav li {
   display: inline-block;
   margin-left: 70px;
-  padding-top: 25px;
+  padding-top: 50px;
   position: relative;
 }
 
@@ -70,4 +76,21 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+
+.galleryContainer {
+  width: 100%;
+  height: 500px;
+  max-width: 1000px;
+  user-select: none;
+  box-shadow: 0px 0px 3px 1px #00000078;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.slideShowCOntainer {
+
 }
